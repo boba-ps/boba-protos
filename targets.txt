@@ -1,0 +1,33 @@
+# req/res
+GetPlayerTokenReq
+GetPlayerTokenRsp
+PlayerLoginReq
+PlayerLoginRsp
+GetPlayerSocialDetailReq
+GetPlayerSocialDetailRsp
+EnterSceneReadyReq
+EnterSceneReadyRsp
+SceneInitFinishReq
+SceneInitFinishRsp
+EnterSceneDoneReq
+EnterSceneDoneRsp
+PostEnterSceneReq
+PostEnterSceneRsp
+
+# notify
+OpenStateUpdateNotify
+StoreWeightLimitNotify
+PlayerStoreNotify
+AvatarDataNotify
+PlayerEnterSceneNotify
+EnterScenePeerNotify
+WorldDataNotify
+WorldPlayerInfoNotify
+ScenePlayerInfoNotify
+PlayerEnterSceneInfoNotify
+PlayerGameTimeNotify
+SceneTimeNotify
+SceneDataNotify
+HostPlayerNotify
+SceneTeamUpdateNotify
+SceneEntityAppearNotify

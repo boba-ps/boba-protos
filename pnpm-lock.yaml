@@ -1,0 +1,65 @@
+lockfileVersion: 5.3
+
+specifiers:
+  '@protobuf-ts/plugin': ^2.4.0
+  '@protobuf-ts/runtime': ^2.4.0
+  '@types/node': ^17.0.24
+  typescript: ^4.6.3
+
+dependencies:
+  '@protobuf-ts/runtime': 2.4.0
+
+devDependencies:
+  '@protobuf-ts/plugin': 2.4.0
+  '@types/node': 17.0.24
+  typescript: 4.6.3
+
+packages:
+
+  /@protobuf-ts/plugin-framework/2.4.0:
+    resolution: {integrity: sha512-QorGUrqqmKByM3bfxQaLh8T1mpqVVnKTZMSkTOPlqn+0T3fPQOKOZ9Phm4eU1crJbR5Fwq2w7yEpvSg6LhPphA==}
+    dependencies:
+      '@protobuf-ts/runtime': 2.4.0
+      typescript: 3.9.10
+    dev: true
+
+  /@protobuf-ts/plugin/2.4.0:
+    resolution: {integrity: sha512-Q3PYzeYrsrZ2Hy/DY+jYCKDWaVjk8lxekhVjVvveN0cdUnawSWCsGkiM2CqeQ2PAWptOmFHIrz3VFqSrOx5sFQ==}
+    hasBin: true
+    dependencies:
+      '@protobuf-ts/plugin-framework': 2.4.0
+      '@protobuf-ts/protoc': 2.4.0
+      '@protobuf-ts/runtime': 2.4.0
+      '@protobuf-ts/runtime-rpc': 2.4.0
+      typescript: 3.9.10
+    dev: true
+
+  /@protobuf-ts/protoc/2.4.0:
+    resolution: {integrity: sha512-W5xb+xhBgjP/nfntxO2eIyhMc7smeypflj6sH8Tp25H8MPGagE3kuOCe8F7PxOJzLZgHg7bMhubr7EymSaBNmw==}
+    hasBin: true
+    dev: true
+
+  /@protobuf-ts/runtime-rpc/2.4.0:
+    resolution: {integrity: sha512-S+q3ZT9rM4iC5tYM2inhvaqd16pW9TKaoHfLmPjZh0X67XuI4RC4STvru0os3aowZn3q0OcDtWIzD+rIJXobiA==}
+    dependencies:
+      '@protobuf-ts/runtime': 2.4.0
+    dev: true
+
+  /@protobuf-ts/runtime/2.4.0:
+    resolution: {integrity: sha512-73/dE1ZCnNSmxN+M07Zu916TIx5I+WVpxQaMF3TrgenUiYqqQvNRpmfksmL9iiJBNMZqIts1u/flc3pzRFDy6Q==}
+
+  /@types/node/17.0.24:
+    resolution: {integrity: sha512-aveCYRQbgTH9Pssp1voEP7HiuWlD2jW2BO56w+bVrJn04i61yh6mRfoKO6hEYQD9vF+W8Chkwc6j1M36uPkx4g==}
+    dev: true
+
+  /typescript/3.9.10:
+    resolution: {integrity: sha512-w6fIxVE/H1PkLKcCPsFqKE7Kv7QUwhU8qQY2MueZXWx5cPZdwFupLgKK3vntcK98BtNHZtAF4LA/yl2a7k8R6Q==}
+    engines: {node: '>=4.2.0'}
+    hasBin: true
+    dev: true
+
+  /typescript/4.6.3:
+    resolution: {integrity: sha512-yNIatDa5iaofVozS/uQJEl3JRWLKKGJKh6Yaiv0GLGSuhpFJe7P3SbHZ8/yjAHRQwKRoA6YZqlfjXWmVzoVSMw==}
+    engines: {node: '>=4.2.0'}
+    hasBin: true
+    dev: true
