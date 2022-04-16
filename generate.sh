@@ -18,8 +18,9 @@ pnpm protoc \
 # regenerate index file
 rm -f "index.ts"
 
-for target in ${targets[@]}; do
-  echo "export * from \"./types/$target\"" >> "index.ts"
+for file in types/*.ts; do
+  name=$(basename "$file" ".ts")
+  echo "export * from \"./types/$name\"" >> "index.ts"
 done
 
 pnpm tsc
