@@ -1,3 +1,5 @@
+export * from "./types/QueryRegionListHttpRsp"
+export * from "./types/QueryCurrRegionHttpRsp"
 export * from "./types/GetPlayerTokenReq"
 export * from "./types/GetPlayerTokenRsp"
 export * from "./types/PlayerLoginReq"

@@ -1,4 +1,8 @@
-# req/res
+# HTTP
+QueryRegionListHttpRsp
+QueryCurrRegionHttpRsp
+
+# Reqeust/Response
 GetPlayerTokenReq
 GetPlayerTokenRsp
 PlayerLoginReq
@@ -14,7 +18,7 @@ EnterSceneDoneRsp
 PostEnterSceneReq
 PostEnterSceneRsp
 
-# notify
+# Notify
 OpenStateUpdateNotify
 StoreWeightLimitNotify
 PlayerStoreNotify
