@@ -12,12 +12,14 @@ pnpm protoc \
   --proto_path schemas \
   --ts_out types \
   --ts_opt generate_dependencies \
-  --ts_opt output_javascript \
+  --ts_opt output_typescript \
   ${schemas[@]}
 
-# generate index file
+# regenerate index file
 rm -f "index.ts"
 
 for target in ${targets[@]}; do
   echo "export * from \"./types/$target\"" >> "index.ts"
 done
+
+pnpm tsc

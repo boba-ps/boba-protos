@@ -1,7 +1,7 @@
 {
   "name": "boba-protos",
   "version": "1.0.0",
-  "main": "index.ts",
+  "main": "index.js",
   "dependencies": {
     "@protobuf-ts/runtime": "^2.4.0"
   },
