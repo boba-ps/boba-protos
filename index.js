@@ -98,6 +98,8 @@ __exportStar(require("./types/OfferingInfo"), exports);
 __exportStar(require("./types/OnlinePlayerInfo"), exports);
 __exportStar(require("./types/OpenStateUpdateNotify"), exports);
 __exportStar(require("./types/PacketHead"), exports);
+__exportStar(require("./types/PingReq"), exports);
+__exportStar(require("./types/PingRsp"), exports);
 __exportStar(require("./types/PlatformInfo"), exports);
 __exportStar(require("./types/PlayerEnterSceneInfoNotify"), exports);
 __exportStar(require("./types/PlayerEnterSceneNotify"), exports);

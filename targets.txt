@@ -4,6 +4,8 @@ QueryCurrRegionHttpRsp
 
 # Reqeust/Response
 PacketHead
+PingReq
+PingRsp
 GetPlayerTokenReq
 GetPlayerTokenRsp
 PlayerLoginReq
