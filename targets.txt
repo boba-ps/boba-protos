@@ -3,6 +3,7 @@ QueryRegionListHttpRsp
 QueryCurrRegionHttpRsp
 
 # Reqeust/Response
+PacketHead
 GetPlayerTokenReq
 GetPlayerTokenRsp
 PlayerLoginReq
