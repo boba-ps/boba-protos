@@ -20,6 +20,12 @@ EnterSceneDoneReq
 EnterSceneDoneRsp
 PostEnterSceneReq
 PostEnterSceneRsp
+GetPlayerFriendListReq
+GetPlayerFriendListRsp
+GetPlayerBlacklistReq
+GetPlayerBlacklistRsp
+GetShopReq
+GetShopRsp
 
 # Notify
 PlayerDataNotify
