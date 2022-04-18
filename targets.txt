@@ -22,16 +22,17 @@ PostEnterSceneReq
 PostEnterSceneRsp
 
 # Notify
+PlayerDataNotify
+PlayerStoreNotify
 OpenStateUpdateNotify
 StoreWeightLimitNotify
-PlayerStoreNotify
 AvatarDataNotify
 PlayerEnterSceneNotify
+PlayerEnterSceneInfoNotify
 EnterScenePeerNotify
 WorldDataNotify
 WorldPlayerInfoNotify
 ScenePlayerInfoNotify
-PlayerEnterSceneInfoNotify
 PlayerGameTimeNotify
 SceneTimeNotify
 SceneDataNotify

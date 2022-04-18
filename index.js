@@ -101,6 +101,7 @@ __exportStar(require("./types/PacketHead"), exports);
 __exportStar(require("./types/PingReq"), exports);
 __exportStar(require("./types/PingRsp"), exports);
 __exportStar(require("./types/PlatformInfo"), exports);
+__exportStar(require("./types/PlayerDataNotify"), exports);
 __exportStar(require("./types/PlayerEnterSceneInfoNotify"), exports);
 __exportStar(require("./types/PlayerEnterSceneNotify"), exports);
 __exportStar(require("./types/PlayerGameTimeNotify"), exports);
