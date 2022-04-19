@@ -128,6 +128,7 @@ __exportStar(require("./types/RegionInfo"), exports);
 __exportStar(require("./types/RegionSimpleInfo"), exports);
 __exportStar(require("./types/Reliquary"), exports);
 __exportStar(require("./types/ResVersionConfig"), exports);
+__exportStar(require("./types/Retcode"), exports);
 __exportStar(require("./types/RoguelikeGadgetInfo"), exports);
 __exportStar(require("./types/RoutePoint"), exports);
 __exportStar(require("./types/Route"), exports);

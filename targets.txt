@@ -4,6 +4,7 @@ QueryCurrRegionHttpRsp
 
 # Reqeust/Response
 PacketHead
+Retcode
 PingReq
 PingRsp
 GetPlayerTokenReq
