@@ -2,7 +2,7 @@
 QueryRegionListHttpRsp
 QueryCurrRegionHttpRsp
 
-# Reqeust/Response
+# Request/Response
 PacketHead
 Retcode
 PingReq
